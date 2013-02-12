@@ -18,6 +18,7 @@
     </style>
     <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
 
+
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -32,7 +33,6 @@
   </head>
 
   <body>
-
 
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
@@ -62,54 +62,17 @@
 
     <div class="container">
 
-      <h1>Users</h1>
-     <table class="table table-hover">
-         <thead>
-                <tr>
-                  <th>#</th>
-                  <th>Name</th>
-                  <th>Group</th>
-                  <th>Role</th>
-                  <th></th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1</td>
-                  <td>Vasiliy Pupkine</td>
-                  <td>Group1</td>
-                  <td>Admin</td>
-                  <td>
-                    <button class="btn btn-mini" type="button"><i class="icon-pencil"></i></button>
-                    <button class="btn btn-mini" type="button"><i class="icon-remove"></i></button>
-                  </td>
-                </tr>
-                <tr>
-                  <td>2</td>
-                  <td>Maria Magdalene</td>
-                  <td>Group2</td>
-                  <td>God's mother</td>
-                  <td>
-                    <button class="btn btn-mini" type="button"><i class="icon-pencil"></i></button>
-                    <button class="btn btn-mini" type="button"><i class="icon-remove"></i></button>
-                  </td>
-                </tr>
-                <tr>
-                  <td>3</td>
-                  <td>Jesus Christ</td>
-                  <td>Group3</td>
-                  <td>Someone's son</td>
-                  <td>
-                    <button class="btn btn-mini" type="button"><i class="icon-pencil"></i></button>
-                    <button class="btn btn-mini" type="button"><i class="icon-remove"></i></button>
-                  </td>
-                </tr>
-              </tbody>
+      
+      <form class="form-signin">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <input type="text" class="input-block-level" placeholder="Email address">
+        <input type="password" class="input-block-level" placeholder="Password">
+        <label class="checkbox">
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+        <button class="btn btn-large btn-primary" type="submit">Sign in</button>
+      </form>
 
-</table>
-<p>
-  <button class="btn btn-primary" type="button"><i class="icon-plus icon-white"></i> Add</button>
-</p>
     </div> <!-- /container -->
 
     <!-- Le javascript

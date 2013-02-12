@@ -10,6 +10,7 @@
 
     <!-- Le styles -->
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="custom.css" rel="stylesheet">
     <style>
       body {
         padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
@@ -32,6 +33,7 @@
 
   <body>
 
+   
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
@@ -43,14 +45,20 @@
           <a class="brand" href="./index.html">System</a>
           <div class="nav-collapse">
             <ul class="nav">
-              <li class="active"><a href="./groups.html">Groups</a></li>
+              <li><a href="./groups.html">Groups</a></li>
+              <li class="divider-vertical"></li>
               <li><a href="./users.html">Users</a></li>
+              
+            </ul>
+            <ul class="nav pull-right">
+              <li><a href="#"><i class="icon-user"></i>%username%</a></li>
+              <li class="divider-vertical"></li>
+              <li><a href="login.html">Logout</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
       </div>
     </div>
-
     <div class="container">
 
       <h1>Groups</h1>
